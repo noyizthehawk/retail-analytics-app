@@ -7,9 +7,10 @@ from schema import (
     REQUIRED_NUMERIC_COLUMNS,
     REQUIRED_TEXT_COLUMNS,
     canonical_column_name,
-    normalize_column_names
+    normalize_column_names 
 )
 import pandas as pd
+TEST_MODE = True
 
 """Validate the data against the schema."""
 
@@ -51,7 +52,7 @@ def validate_data_columns(df):
     }
 
 
-
+#main
 def validate_data_types(df):
     df = df.copy()
 
@@ -120,7 +121,6 @@ def validate_data_types(df):
         "columns": list(df.columns),
     }
 
-
     
 
     
@@ -129,4 +129,5 @@ def validate_data_types(df):
 
     
     
+
 
