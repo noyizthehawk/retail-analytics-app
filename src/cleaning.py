@@ -94,8 +94,7 @@ def analysis_friendly(df):
         df['order_year'] = df['order_date'].dt.year
     if 'sales' not in df.columns:
         df['sales'] = df['quantity'] * df['unit_price']
-    if 'absolute_quantity' not in df.columns:
-        df['absolute_quantity'] = df['quantity'].abs()
+
     return df
 def clean_data(df):
     #normalize column names
