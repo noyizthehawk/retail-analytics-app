@@ -7,10 +7,10 @@ show errors/warnings
 
 """
 
-from data_loader import load_sample_data
-from validation import validate_data_columns, validate_data_types
-from schema import normalize_column_names
-from cleaning import clean_data
+from .data_loader import load_sample_data
+from .validation import validate_data_columns, validate_data_types
+from .schema import normalize_column_names
+from .cleaning import clean_data
 import pandas as pd
 TEST_MODE = True
 

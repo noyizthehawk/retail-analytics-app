@@ -12,7 +12,7 @@ def load_data(file_path):
     return df
 
 def load_sample_data():
-    df = pd.read_csv("data/train.csv", encoding="latin-1")
+    df = pd.read_csv("data/online_retail_II.csv", encoding="latin-1")
     return df
 
 # get data shape to get columns and row counts of a data frame as a dictionary

@@ -95,6 +95,7 @@ COLUMN_ALIASES: Final[dict[str, str]] = {
     "units": QUANTITY,
     # unit_price
     "price": UNIT_PRICE,
+    "Price": UNIT_PRICE,
     "unit price": UNIT_PRICE,
     "unit_cost": UNIT_PRICE,
     "unit cost": UNIT_PRICE,

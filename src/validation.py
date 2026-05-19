@@ -1,4 +1,4 @@
-from schema import (
+from .schema import (
     OPTIONAL_COLUMNS,
     OPTIONAL_NUMERIC_COLUMNS,
     OPTIONAL_TEXT_COLUMNS,
@@ -6,7 +6,6 @@ from schema import (
     REQUIRED_DATE_COLUMNS,
     REQUIRED_NUMERIC_COLUMNS,
     REQUIRED_TEXT_COLUMNS,
-    canonical_column_name,
     normalize_column_names 
 )
 import pandas as pd
